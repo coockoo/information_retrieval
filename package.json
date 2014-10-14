@@ -1,0 +1,18 @@
+{
+  "name": "information_retrieval",
+  "version": "0.1.0",
+  "description": "Information retrieval course hometasks project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "information",
+    "retrieaval",
+    "search",
+    "google",
+    "homework"
+  ],
+  "author": "Oleksandr Bondarchuk <alex.coockoo@gmail.com> (http://github.com/coockoo)",
+  "license": "BSD-2-Clause"
+}
