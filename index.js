@@ -4,8 +4,7 @@ var path = require('path');
 var Q = require('q');
 
 
-//var file = '/Users/coockoo/www/information_retrieval/library/ttalk10.txt';
-var dictionaryFilePath = '/Users/coockoo/www/information_retrieval/dictionary.txt';
+var dictionaryFilePath = '/Users/coockoo/www/information_retrieval/results/dictionary.txt';
 var dictionary = [];
 var libraryPath = '/Users/coockoo/www/information_retrieval/library';
 
@@ -41,7 +40,7 @@ parseDirectory(libraryPath).then(function (files) {
 	linesList.forEach(function (lines) {
 		lines.forEach(function (line) {
 			var words = [];
-			var items = line.replace(/[\?\.,-\/#!$%\^&\*;:{}=\-_`~\(\)\[\]\\'"]/g, '').split(/\s/);
+			var items = line.replace(/[\?\.,-\/#!$%\^&\*;:{}=\-_`~\(\)\[\]\\'\+"]/g, '').split(/\s/);
 			items.forEach(function (item) {
 				if (item.length) {
 					++totalWords;
