@@ -14,5 +14,8 @@
     "homework"
   ],
   "author": "Oleksandr Bondarchuk <alex.coockoo@gmail.com> (http://github.com/coockoo)",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "q": "~1.0.1"
+  }
 }
